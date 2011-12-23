@@ -1,0 +1,156 @@
+/* 
+  CITYCARRENTAL Core Style Sheet
+  Version 1.0 - 21 September 2009
+*/
+body,div,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	margin:0;
+	padding:0; }
+	
+ul,ol,li {
+	margin:0;
+	padding_left:8;
+}
+
+html, body {
+	background-color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+
+/*
+h1 {color:#73a534; font-size:1.33em;}
+h2 {color:#73a534; font-size:1.167em;}
+h3 {color:#333; font-size:1.167em;}
+h4 {color:#333; font-size:1em;}
+h5, h6 {font-size:1em;}
+*/
+a {color:#084482; text-decoration:underline;}
+a.button {width:auto; border:1px solid #bfbfbf; border-right-color:#908d8d; border-bottom-color:#908d8d; padding:2px .6em; background:#e1e1e1 url(../images/btn_bg_default.html) left center repeat-x; color:#000; font-weight:normal !important; text-decoration:none;}
+a.button:active {border:1px solid #908d8d; border-right-color:#afafaf; border-bottom-color:#afafaf;}
+a.button:hover {cursor:pointer;}
+a.button.primary {background:#ffa822 url(../images/btn_bg_submit.html) left center repeat-x; border:1px solid #d5bd98; border-right-color:#935e0d; border-bottom-color:#935e0d;}
+a.button.primary:active {border:1px solid #935e0d; border-right-color:#d5bd98; border-bottom-color:#d5bd98;}
+a img {border:0;}
+/*
+p {margin:1em 0;} 
+ul, ol, dl {margin:1em 0; padding:0;}
+dt {margin:0; padding:0;}
+li, dd {margin:0 0 0 1.7em;}
+blockquote {margin:1em;}
+
+em {font-style:italic;}
+strong {font-weight:bold;}
+dfn, var {font-style:normal;}
+code, kbd, samp {font:1em "Courier New", Courier, monospace;}
+q:before, q:after {content:"";}
+cite {font-style:normal;}
+cite span {display:block;}
+abbr, acronym {border:none; color:#084482; text-decoration:underline; cursor:pointer;}
+*/
+form {margin:0; padding:0;}
+fieldset {margin:0; border:0; padding:0;}
+legend {padding:0; font-weight:bold;}
+label {display:block;}
+input, select, textarea {border:1px solid #999; font:1.1em Arial, Helvetica, sans-serif; font-size:12px;}
+input, textarea {padding:2px;}
+input[type=checkbox], input[type=radio],input[type=hidden] {border:none; padding:0;}
+input.checkbox, input.radio, input.hidden {border:none;}
+
+button, input.button {width:auto !important; margin-right:10px; border:1px solid #bfbfbf; border-right-color:#908d8d; border-bottom-color:#908d8d; padding:1px .5em; background:#e1e1e1 url(../images/btn_bg_default.html) left center repeat-x; color:#000;}
+button:active, input.button:active {border:1px solid #908d8d; border-right-color:#afafaf; border-bottom-color:#afafaf;}
+button:hover, input.button:hover {cursor:pointer;}
+button.primary, input.button.primary {border:1px solid #d5bd98; border-right-color:#73a534; border-bottom-color:#73a534; background:#a9c882 url(../images/btn_bg_submit.html) left center repeat-x;}
+button.primary:active, input.button.primary:active {border:1px solid #73a534; border-right-color:#a9c882; border-bottom-color:#a9c882;}
+button[disabled=disabled] {border:1px solid #ccc; background:#eee; color:#b3b3b3;}
+button[disabled=disabled]:hover {cursor:default;}
+button.disabled, input.button.disabled {border:1px solid #ccc; background:#eee; color:#b3b3b3;}
+button.disabled:hover, input.button.disabled:hover {cursor:default;}
+/*
+table {border-collapse:collapse;}
+caption {}
+th {}
+td {}
+
+hr {display:none;}
+*/
+
+.test
+{
+font-size:11px;
+padding-top:8px;
+padding-left: 20px;
+}
+
+.title_booking
+{
+font:1.1em Arial, Helvetica, sans-serif;
+font-size:15px;
+font-weight:bold;
+color:#73a534;
+padding-top:0px;
+padding-left:2px;
+}
+
+.text_booking
+{
+font-size:12px;
+font-weight:normal;
+padding-top:14px;
+padding-left:2px;
+}
+
+.text_all
+{
+font-size:12px;
+color:black;
+}
+
+.text_all_small
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#999999;
+}
+
+.text_all_small2
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#999999;
+}
+
+.text_all_small3
+{
+font-family: Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#999999;
+}
+
+.title_all_big
+{
+font-size:18px;
+color:#73a534;
+padding-down:10px;
+}
+
+.title_all_mid
+{
+font-size:16px;
+font-weight:bold;
+color:#73a534;
+padding-down:10px;
+}
+
+.main_links {font-size:15px; font-weight:bold; text-decoration:none; color:white; padding-top:8px; padding-left:4px;}
+.main_links:link
+.main_links:visited
+.main_links:hover {font-size:15px; font-weight:bold; text-decoration:none; color:yellow; padding-top:8px; padding-left:4px;}
+
+.main_links_spaces {font-size:14px; text-decoration:none; padding-top:0px; padding-left:0px;}

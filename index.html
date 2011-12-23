@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>DCM d.o.o Rent-a-Car</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="Keywords" content="DCM, car rental, car hire, rent a car, offers, discounts, vehicle hire, rent a car agencija, car rental agencija, city rent-a-car sarajevo" />
+<meta name="Description" content="In order to meet a good quality and bargain prices of our vehicles, rent-a-car at our company here in Sarajevo, Bosnia and Herzegovina.We have possibility of online reservations"" />
+
+<link rel="icon" type="image/x-icon" href="favicon.ico" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+
+
+
+
+</head>
+
+<body>
+<div id="container">
+	<div id="header">
+		
+        <div id="logo"><a href="index.html"><img src="images/logo.jpg" alt=" " /></a></div>
+		<div id="right_header">
+		<div id="reservations"></div>
+		<div class="clear"></div>
+		</div>
+        
+		<div class="clear"></div>
+
+		</div>
+		
+		<div id="navigation">
+			<div id="navigation_main">
+				<ul class="menu">
+					<li><a href="index.html">HOMEPAGE</a></li>
+					<li><a href="#">SERVICES</a>
+					<li>
+						<ul> 
+							<li><a href="renting.html?act=service_rentacar">Renting</a></li>
+							<li><a href="leasing.html?act=service_leasing">Leasing</a></li>
+							<li><a href="transfer.html?act=service_transfer">Transfer</a></li>
+						</ul>
+					</li>
+					<li><a href="vehicles.html?act=vehicles">VEHICLES</a></li>
+					<li><a href="conditions.html?act=tandc">CONDITIONS</a></li>      
+				 
+				</ul>
+			</div>
+				
+			<div id="navigation_small">
+			<a href="about_us.html?act=about">About Us</a> | 
+			<a href="partners.html?act=partners">Partners</a> | 
+			<a href="common_questions.html?act=faq">FAQ</a> | 
+			<a href="contact.html?act=contact">Contact</a></div>
+
+			<!-- right -->
+
+			<div class="clear"></div>
+		</div><!-- navigation -->
+		
+		
+
+		<div id="edit">
+
+		<div id="banner">
+		<div id="banner_form">
+		<div class="hdr">BOOK NOW</div><!-- hdr -->
+
+		<form action="https://dcm.ba/?act=booking" onsubmit="return checkform();" method="post" enctype="multipart/form-data" accept-charset="UTF-8" name="bookingform1">
+		<div class="btn">
+		<input type="image" src="images/submit.png" value="Submit" alt="Submit" />
+		</div>
+
+		<div class="top">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td colspan="2" class="center">Location of pick-up<select name="location">
+				<option value="SAO" selected="selected">Sarajevo (Old Town)</option>
+				<option value="SAA">Sarajevo (Airport)</option>
+			  </select></td>
+		  </tr>
+		  <tr>
+			<td height="40" colspan="2"  class="center"><input type="checkbox" name="alternativereturn" id="alternativereturn" value="1" onclick="enablereturn();" />&nbsp;<span class="f14">Different location of return?</span></td>
+		  </tr>
+		  <tr id="hideShow">
+			<td colspan="2" class="center">Location of return<select name="returnlocation">
+				<option value="SAO">Sarajevo (Old Town)</option>
+				<option value="SAA">Sarajevo (Airport)</option>
+				<option value="" selected="selected">- - -</option>
+			  </select></td>
+		  </tr>
+		  <tr>
+			<td height="30">Date of pick-up (DD.MM.YYYY)</td>
+			<td height="30"><input type="text" class="inputDate" name="inputDate" id="inputDate" size="10" maxlength="10" />
+			</td>
+		  </tr>
+		  <tr>
+			<td height="30">Date of return (DD.MM.YYYY)</td>
+			<td height="30"><input type="text" class="inputDate2" name="inputDate2" id="inputDate2" size="10" maxlength="10" />
+		</td>
+		  </tr>
+		  <tr>
+			<td height="40" colspan="2" class="center"><input type="checkbox" name="olderthen" id="olderthen" value="1" onclick="enablereturnX();" />&nbsp;<span class="f14">I'm older than 21</span></td>
+		  </tr>
+		  <tr>
+			<td class="f14"><br /><br /><a href="check_reservation.html?act=check_reservation"><img src="images/ico-prov.png" width=34 height=35 border=0 />&nbsp;<b>Check your reservation!</b></a></td>
+		  </tr>
+		</table>
+		</div><!-- top -->
+				<input type="hidden" name="booking" value="1" />
+				<input type="hidden" name="blang" value="" />
+		</form>
+					</div><!-- banner form -->
+		<div id="banner_right"></div><!-- banner right -->
+
+		<div class="clear"></div>
+
+		</div><!-- banner -->
+
+		<div id="box">
+
+			<div class="t"></div>
+			<div class="c">
+			<div class="grad">
+
+			<div class="boxes">
+			<div class="box1">
+			<div class="hdr">DCM delivers rent-a-cars on any airport in region.</div>
+
+			</div><!-- box1 -->
+			<div class="btn"><img src="images/ico_troguao.gif" alt=" " /></div>
+			<div class="box2">
+			<div class="hdr">Transfer Service from Sarajevo airport to wished location, no matter if you are visiting because of business or pleasure. 
+			</div>
+			</div><!-- box2 -->
+			<div class="btn"><a href="service_transfer.html?act=service_transfer" border=0><img src="images/ico_troguao.gif" alt=" " /></a></div>
+			<div class="box3">
+			<div class="hdr2">If you rented our vehicle, you can be sure that our customer service is available to you 24/7 no matter where you currently are.</div><!-- hdr2 -->
+
+			<div class="hdr3">
+			Ask for an invoice<div class="f14"><a href="mailto:support@dcm.ba">support@dcm.ba</a></div>
+			</div>
+
+			</div><!-- box3 -->
+			<div class="clear"></div>
+			</div><!-- boxes -->
+			</div></div><!-- c grad -->
+			<div class="b"></div>
+		</div><!-- box -->
+
+		</div><!-- edit --></div><!-- container -->
+
+		<!-- footer start -->
+		<div id="footer">
+
+		<div class="menu"><a href="homepage.html?act=">Homepage</a>  |  <a href="vehicles.html?act=vehicles">Vehicles </a> |  <a href="conditions.html?act=tandc">Conditions</a>  |  <a href="offer2.html?act=soffer">Offer</a>  |  <a href="about_us.html?act=about">About us</a>  |  <a href="faq.html?act=faq">FAQ</a>  |  <a href="contact.html?act=contact">Contact</a></div>
+		<div class="copy">DCM Rent-a-Car | Bistrik 7 | 71000 Sarajevo | Bosna i Hercegovina | +387 61 546760 | +387 61 232234 | +387 62 085647 | support@dcm.ba</div>
+
+
+		</div>
+
+		<div id="sub_footer">
+
+		<div class="design">Copyright &copy; 2011 DCM. All rights reserved. |</div>
+		
+		</div>
+		
+		</body>
+
+</html>
